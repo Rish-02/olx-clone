@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import { Row } from 'react-bootstrap'
 import { ThreeDots } from 'react-loader-spinner'
 import { useDispatch, useSelector } from 'react-redux'
-import { filterAds, getAds, reset } from '../redux/ads/adsSlice'
+import { getAds, reset } from '../redux/ads/adsSlice'
 import { InnerCard } from './InnerCard'
 
 const Cards = () => {
-  const { ads, isLoading, filteredAds } = useSelector(
+  const { isLoading, filteredAds } = useSelector(
     (selector) => selector.ads
   )
   
@@ -39,7 +39,7 @@ const Cards = () => {
     <div className="AdCard">
       <Row className="g-3">
         {filteredAds.length > 0 ? (
-          filteredAds.map((ad) => ad.sellingStatus == "Unsold" ? <InnerCard ad={ad} /> : console.log("Sold"))
+          filteredAds.map((ad) => ad.sellingStatus === "Unsold" ? <InnerCard ad={ad} /> : console.log("Sold"))
         ) : (
           <div style={{ height: '35vh' }}>
             <h1>You have no ads to show</h1>

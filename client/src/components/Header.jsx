@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete'
 import toast from 'react-hot-toast'
 import { useDispatch, useSelector } from 'react-redux'
-import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { filterAds, searchFilter } from '../redux/ads/adsSlice'
 import { resetUser } from '../redux/auth/authSlice'
 
@@ -24,7 +24,7 @@ function Header() {
 
   const dispatch = useDispatch()
   const navigate = useNavigate()
-  const location = useLocation()
+  // const location = useLocation()
   const { user } = useSelector((select) => select.auth)
 
   useEffect(() => {

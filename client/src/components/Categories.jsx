@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { filterByCategory } from '../redux/ads/adsSlice'
 
 const Categories = () => {
-  const [category, setCategory] = useState('')
+  const [ setCategory] = useState('')
   const dispatch = useDispatch()
 
   const handleCategories = (category) => {

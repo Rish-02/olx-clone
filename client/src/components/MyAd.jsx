@@ -1,6 +1,6 @@
 import { IconButton, Menu, MenuItem } from '@mui/material'
 import React, { useState } from 'react'
-import { Link, Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { Card } from 'react-bootstrap'
 import { BsThreeDots } from 'react-icons/bs'
 import { useDispatch } from 'react-redux'
