@@ -156,6 +156,7 @@ const PostAd = () => {
                 <p className="input_label">Condition</p>
 
                 <Form.Select onChange={dropDownChange}>
+                {/* <option value="">-</option> */}
                   <option value="New">New</option>
                   <option value="Open">Open</option>
                   <option value="Used">Used</option>

@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Container>
-        {/* <Categories /> */}
+        <Categories />
         <Cards />
       </Container>
     </div>
