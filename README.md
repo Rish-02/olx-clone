@@ -22,22 +22,22 @@ OLX-Clone
 <li>Clone the repository in your local system.
 <li>Open the cloned folder and start a terminal in that location.
 <li>Execute the following command in the terminal just opened.<br>
-  `npm install`
+  <b><i>npm install</i></b>
 <li>Go to the folder in the file explorer again, go to the "Client" folder inside it.
 <li>Now, open a second terminal, keeping the first one open. 
 <li>In the new terminal, execute the same command.<br>
-  `npm install`
+  <b><i>npm install</i></b>
 <li>Wait for both the terminals to finish the execution.
 <li>Now, in the first terminal, execute the following command.<br>
-  `npm run dev` Done here
+  <b><i>npm run dev</i></b>
 <li>In the second terminal, execute the following command.<br>
-  ``npm start``
+  <b><i>npm start</i></b>
 </ol>
 
 The application should start working in your system now.
 
-*From the navbar, you can register a new account. Then login to the account and post new ads. On the home screen, you can see the ads posted by everyone with "Unsold" status.
-The users can edit their ads and set the status to "Sold". The ad will then not appear in the home screen or in the search.*
+<b>From the navbar, you can register a new account. Then login to the account and post new ads. On the home screen, you can see the ads posted by everyone with "Unsold" status.
+The users can edit their ads and set the status to "Sold". The ad will then not appear in the home screen or in the search.</b>
 
 
 <h5>Here is the OLX clone that I build with MERN Stack</h5>
